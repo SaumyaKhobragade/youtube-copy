@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube clone</title>
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="Icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="Icons/youtube-logo.svg">
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="Icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="Icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-button" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-button" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-button" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="Channel-Logos/unnamed.jpg">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="Icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/library.svg">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720.webp">
+                    <div class="video-time">10:00</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">
+                            World's BIGGEST Tech Crash ! *Microsoft Windows*
+                        </p>
+                    
+                        <p class="video-author">
+                            Tech Burner
+                        </p>
+                    
+                        <p class="video-stats">
+                            127k views &#183; 2 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (1).webp">
+                    <div class="video-time">9:17</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (1).jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            Is Kinich The Best Dendro DPS? | First Impressions
+                        </p>
+                    
+                        <p class="video-author">
+                            TGS
+                        </p>
+                    
+                        <p class="video-stats">
+                            5.2k views &#183; 1 hour ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (2).webp">
+                    <div class="video-time">19:35</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (2).jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">
+                            How To Build A Gaming PC In 2024 - Step by Step
+                        </p>
+                    
+                        <p class="video-author">
+                            Venom's Tech
+                        </p>
+                    
+                        <p class="video-stats">
+                            81k views &#183; 2 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (3).webp">
+                    <div class="video-time">17:01</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (3).jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            JAILS OF MODERN INDIA | Indian Private Schools
+                        </p>
+                    
+                        <p class="video-author">
+                            Indian Reformist
+                        </p>
+                    
+                        <p class="video-stats">
+                            122k views &#183; 7 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (4).webp">
+                    <div class="video-time">27:13</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (4).jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">
+                            I Recreated GTA V in Minecraft Hardcore!
+                        </p>
+                    
+                        <p class="video-author">
+                            Zenith
+                        </p>
+                    
+                        <p class="video-stats">
+                            3.5M views &#183; 3 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (5).webp">
+                    <div class="video-time">19:16</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (5).jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            Why Indian Men Get Zero Matches On Dating Apps | Explained With Data
+                        </p>
+                    
+                        <p class="video-author">
+                            Aevy TV
+                        </p>
+                    
+                        <p class="video-stats">
+                            291k views &#183; 3 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (6).webp">
+                    <div class="video-time">27:13</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (6).jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">
+                            12 VS Code Extensions to INCREASE Productivity 2024
+                        </p>
+                    
+                        <p class="video-author">
+                            Devression
+                        </p>
+                    
+                        <p class="video-stats">
+                            582k views &#183; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (7).webp">
+                    <div class="video-time">18:07</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (7).jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            My DREAM Everyday Tech!
+                        </p>
+                    
+                        <p class="video-author">
+                            Mrwhosetheboss
+                        </p>
+                    
+                        <p class="video-stats">
+                            3.8M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (8).webp">
+                    <div class="video-time">26:19</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (8).jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">
+                            Hogwarts Legacy - One Year Later
+                        </p>
+                    
+                        <p class="video-author">
+                            Game Overload
+                        </p>
+                    
+                        <p class="video-stats">
+                            1M views &#183; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (9).webp">
+                    <div class="video-time">19:09</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (9).jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            I Built My Dream $30,000 Gaming Room! 
+                        </p>
+                    
+                        <p class="video-author">
+                            Dantic
+                        </p>
+                    
+                        <p class="video-stats">
+                            2M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (10).webp">
+                    <div class="video-time">10:48</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (10).jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">
+                            Unknown Eighth Chiranjeevi of Kalyuga? - Untold Story...
+                        </p>
+                    
+                        <p class="video-author">
+                            RAAAZ by BigBrainco.
+                        </p>
+                    
+                        <p class="video-stats">
+                            46k views &#183; 6 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/hq720 (11).webp">
+                    <div class="video-time">6:48</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="channel-logo" src="Channel-Logos/channels4_profile (11).jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            I Built a MILLION DOLLAR Gym
+                        </p>
+                    
+                        <p class="video-author">
+                            Ronnie Coleman
+                        </p>
+                    
+                        <p class="video-stats">
+                            351k views &#183; 4 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
